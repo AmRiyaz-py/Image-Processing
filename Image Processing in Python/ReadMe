@@ -4,3 +4,9 @@ In this File, I would like to demonstrate how one can enhance the quality and ex
 using image processing.
 I have a sample image of a Lion. My objective is to find out the Batch no of Lion so that I could update how many Lion Image have been tested for quality check.
 +
++
+Image Restroration Technique in python
+In this file , I would like to demonstrate how i change the blurry-ness of a lion image and making it sharpen step by step using Image Processing.
+sample image as lion.jpg
++
++
