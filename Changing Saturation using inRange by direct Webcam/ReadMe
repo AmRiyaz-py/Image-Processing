@@ -1,4 +1,10 @@
  ++++++++++++++++++++
  
+In color image processing, there are various models one of which is the hue, saturation, value (HSV) model. 
+Using this model, an object with a certain color can be detected and to reduce the influence of light intensity from the outside. 
+
+cv2.inRange(src, lowerb, upperb) 
+Here, src is the input image. ‘lowerb’ and ‘upperb’ denotes the lower and upper boundary of the threshold region. 
+A pixel is set to 255 if it lies within the boundaries specified otherwise set to 0. This way it returns the thresholded image.
  
  ====================
