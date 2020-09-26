@@ -1,1 +1,27 @@
 
+                                                      =============== ++++++++++++ =============
+          
+          # BLUR DETECTION BY LAPLACIAN OF GAUSSIAN
+          
+          Terms Used:
+          
+          cv2 :- OpenCV-Python is a library of Python bindings designed to solve computer vision problems.
+          
+          Numpy:- NumPy is a python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+                  NumPy was created in 2005 by Travis Oliphant. 
+                  It is an open source project and you can use it freely. NumPy stands for Numerical Python.
+          
+          Laplacian of Gaussian:- Unlike first-order filters that detect the edges based on local maxima or minima, Laplacian detects the edges at zero crossings 
+          i.e. where the value changes from negative to positive and vice-versa.
+          To reduce the noise effect, image is first smoothed with a Gaussian filter and then we find the zero crossings using Laplacian.
+          This two-step process is called the Laplacian of Gaussian (LoG) operation
+          
+                        To detect the blur we could use different approaches, in general all of them are related to the sharpness of the edges of an image.
+                                    So we will focus in this tutorial on a specific Edge detection filter which is the Laplacian filter.
+                                      And the most amazing thing is that the actual blur detection can be done with just a line of code.
+
+                                                      laplacian_var = cv2.Laplacian(img, cv2.CV_64F).var()
+                      The line above return as value the average variance of the edges in an image. The higher the number, the sharper the edge is.
+                      
+                      
+                                                            =============== ++++++++++++ =============
