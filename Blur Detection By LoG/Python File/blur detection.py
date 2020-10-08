@@ -1,3 +1,10 @@
+'''Categorisation of Image whether it is Blurred Image or a Clear Image cv2 numpy Laplacian of Gaussian
+
+Notebook:- Using Laplacian of Gaussian(GoS) checking the bluriness of any image
+Last Modified:- September 2020
+
+Author:- AmRiyaz'''
+
 import cv2
 import numpy as np
 
