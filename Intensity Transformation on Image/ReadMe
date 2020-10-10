@@ -1,1 +1,10 @@
+                            ++++++++++++++++++++++++++++++++
+                                                  ## Intensity Transformation on Image
+Intensity transformations are applied on images for contrast manipulation or image thresholding. These are in the spatial domain, i.e. they are performed directly on the pixels of the image at hand, as opposed to being performed on the Fourier transform of the image.
 
+The following are commonly used intensity transformations:
+
+Image Negatives (Linear)
+Log Transformations
+Power-Law (Gamma) Transformations
+Piecewise-Linear Transformation Functions
