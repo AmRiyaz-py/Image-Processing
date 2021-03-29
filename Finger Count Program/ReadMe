@@ -1,1 +1,12 @@
-...
+    ==    ==    ==    ==    ==    ==
+    
+    
+    Python program for finger count
+    
+    it will access the web cam and then what ever the finger
+    we show to the cam it will show the number on the screen.
+    
+    -> cv2, numpy and sklearn is used.
+    
+    
+    ==    ==    ==    ==    ==    ==    
